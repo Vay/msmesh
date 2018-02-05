@@ -27,16 +27,17 @@ The program works in console mode with the input file that should be set at the 
 The output file as a geometry file is generated in temp.geo.
 
 input.txt file is used as the input file and looks as follows:
-> mesh 1 5 5 10 10 1 2 3 4
-> line 13.3333 13.3333 39.3955 18.5295 5
-> line 23.3333 18.3333 20.3333 23.5295 5
-> ellipse 28 28 15 15 0 5 6
+
+mesh 1 5 5 10 10 1 2 3 4
+line 13.3333 13.3333 39.3955 18.5295 5
+line 23.3333 18.3333 20.3333 23.5295 5
+ellipse 28 28 15 15 0 5 6
 
 With specified input file we get this grid with a coarse scale and an ability to generate a grid with a smaller scale.
-![alt text](https://github.com/Vay/msmesh/example.png "example")
+![alt text](https://github.com/Vay/msmesh/blob/master/example.png "example")
 
 The picture below describes the parameters the we can specify.
-![alt text](https://github.com/Vay/msmesh/mesh-params.png "example")
+![alt text](https://github.com/Vay/msmesh/blob/master/mesh-params.png "example")
 for run random object generator use:
 
 > python gen.py in output.txt
